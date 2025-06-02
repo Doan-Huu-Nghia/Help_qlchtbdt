@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+	<link rel="icon" href="images/logo.png">
+	<title>Sản phẩm - EShop</title>
+</head>
+
+<body>
+	<div class="container">
+		<div id="navbar"></div>
+		
+		<div class="card mt-3">
+			<div class="card-header">Sản phẩm</div>
+			<div class="card-body">
+				<p class="card-text">Hướng dẫn sử dụng màn hình <strong>Sản phẩm</strong>.</p>
+				<img src="images/sanpham.png" class="img-fluid mx-auto d-block" /><br />
+				<p class="card-text"><strong>Bước 1:</strong> Đưa con trỏ chuột vào Quản lý sau đó click chuột chọn Sản phẩm sẽ hiện ra Form Sản phẩm gồm: Thông tin sản phẩm, Danh sách sản phẩm.</p>
+				<p class="card-text"><strong>Bước 2:</strong> Tại Thông tin sản phẩm gồm: ID, Phân loại, Thương hiệu, Tên sản phẩm, Mô tả sản phẩm, Số lượng, Đơn giá nhập, Đơn giá bán và Hình ảnh.</p>
+				<p class="card-text"><strong>Bước 3:</strong> Các Tác vụ trong Thông tin sản phẩm gồm: Thêm, Sửa, Xóa, Lưu, Hủy bỏ và Thoát.</p>
+				<p class="card-text"><strong>Bước 4:</strong> Ở Thông tin sản phẩm gồm có: ID, Phân loại, Thương hiệu, Tên sản phẩm, Số lượng, Đơn giá nhập, Đơn giá bán, Hình ảnh, Mô tả.</p>
+				<p class="card-text"><strong>Bước 3:</strong> Nhấn nút Tìm để tìm kiếm sản phẩm hoặc Nhập sản phẩm và Xuất sản phẩm .</p>
+				
+			</div>
+		</div>
+		
+		<div id="footer"></div>
+	</div>
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script>
+		$(document).ready(() => {
+			$('#navbar').load('inc/navbar.html');
+			$('#footer').load('inc/footer.html');
+		});
+	</script>
+</body>
+
+</html>

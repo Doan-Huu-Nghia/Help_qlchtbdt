@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+	<link rel="icon" href="images/logo.png">
+	<title>Hóa đơn - EShop</title>
+</head>
+
+<body>
+	<div class="container">
+		<div id="navbar"></div>
+		
+		<div class="card mt-3">
+			<div class="card-header">Hóa đơn</div>
+			<div class="card-body">
+				<p class="card-text">Hướng dẫn sử dụng màn hình <strong>Hóa đơn</strong>.</p>
+				<img src="images/hoadon.png" class="img-fluid mx-auto d-block" /><br />
+				<p class="card-text"><strong>Bước 1:</strong> Đưa con trỏ chuột vào Quản lý sau đó click chuột chọn Hóa đơn sẽ hiện ra Form Danh sách hóa đơn bao gồm: ID, Nhân viên, Khách hàng, Ngày lập, Tổng tiền, Ghi chú và Chi tiết.</p>
+				<p class="card-text"><strong>Bước 2:</strong> Nhấn nút Tìm để tìm kiếm hóa đơn bán hàng hoặc Nhập và Xuất hóa đơn bán hàng.</p>
+				<p class="card-text"><strong>Bước 3:</strong> Ở Tác vụ có thể chọn Lập hóa đơn mới, In hóa đơn, Sửa, Xóa và Thoát.</p><br />
+				
+				<p class="card-text mt-3">Hướng dẫn sử dụng màn hình <strong>Hóa đơn chi tiết</strong>.</p>
+				<img src="images/hoadonchitiet.png" class="img-fluid mx-auto d-block" /> <br />
+				<p class="card-text"><strong>Bước 1:</strong> Nhấn vào Xem chi tiết sẽ hiện ra Chi tiết hóa đơn bán gồm: Thông tin hóa đơn, Thông tin chi tiết hóa đơn, Danh sách sản phẩm và Tác vụ.</p>
+				<p class="card-text"><strong>Bước 2:</strong> Ở Thông tin hóa đơn gồm: Nhân viên lập, Khách hàng, Thêm KH và Ghi chú hóa đơn.</p>
+				<p class="card-text"><strong>Bước 3:</strong> Ở Thông tin chi tiết hóa đơn gồm: ID, Sản phẩm, Đơn giá bán, Số lượng bán, Thành tiền và nút Xác nhận bán, xóa.</p>
+				<p class="card-text"><strong>Bước 4:</strong> Ở Danh sách sản phẩm bạn có thể tìm kiếm sản phẩm và trong tìm kiếm sản phẩm bao gồm: ID, Tên SP, Đơn giá, Tồn kho.</p>
+				<p class="card-text"><strong>Bước 5:</strong> Ở Tác vụ bạn thể chọn Lưu hóa đơn, In hóa đơn hoặc Thoát.</p>
+			</div>
+		</div>
+		
+		<div id="footer"></div>
+	</div>
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script>
+		$(document).ready(() => {
+			$('#navbar').load('inc/navbar.html');
+			$('#footer').load('inc/footer.html');
+		});
+	</script>
+</body>
+
+</html>

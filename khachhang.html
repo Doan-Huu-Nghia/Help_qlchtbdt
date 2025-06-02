@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+	<link rel="icon" href="images/logo.png">
+	<title>Khách hàng - EShop</title>
+</head>
+
+<body>
+	<div class="container">
+		<div id="navbar"></div>
+		
+		<div class="card mt-3">
+			<div class="card-header">Khách hàng</div>
+			<div class="card-body">
+				<p class="card-text">Hướng dẫn sử dụng màn hình <strong>Khách hàng</strong>.</p>
+				<img src="images/khachhang.png" class="img-fluid mx-auto d-block" /> <br />
+				<p class="card-text"><strong>Bước 1:</strong> Đưa con trỏ chuột vào Quản lý sau đó click chuột chọn Khách hàng sẽ hiện ra màn hình Form Khách hàng bao gồm: Thông tin khách hàng, Danh sách khách hàng.</p>
+				<p class="card-text"><strong>Bước 2:</strong> Ở Thông tin khách hàng gồm: Họ và tên, Địa chỉ và Điện thoại.</p>
+				<p class="card-text"><strong>Bước 3:</strong> Ở Tác vụ có thể Thêm, Sửa, Xóa, Lưu, Hủy bỏ hoặc Thoát.</p>
+				<p class="card-text"><strong>Bước 4:</strong> Ở Danh sách khách hàng gồm: ID, Họ và tên, Điện thoại và Địa chỉ.</p>
+				<p class="card-text"><strong>Bước 5:</strong> Thanh Tìm kiếm để Nhập từ khóa để lọc danh sách khách hàng hoặc Nhập và Xuất danh sách khách hàng.</p>
+			
+			</div>
+		</div>
+		
+		<div id="footer"></div>
+	</div>
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script>
+		$(document).ready(() => {
+			$('#navbar').load('inc/navbar.html');
+			$('#footer').load('inc/footer.html');
+		});
+	</script>
+</body>
+
+</html>
